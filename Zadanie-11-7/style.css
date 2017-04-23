@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-image: url(http://wallpapercave.com/wp/0ckPWb2.jpg);
+  background-size:  cover;
+}
+* {box-sizing: border-box;}
+
+.ui-sortable {
+  min-height: 80px;
+}
+.btn-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  background-color: rgba(0,0,0,0.4);
+  color: white;
+}
+/* BOARD */
+.board h1 {
+  margin-left: 8px;
+  text-align: center;
+}
+.board  {
+  text-align: center;
+  margin: 10px auto;
+}
+.column-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.create-column {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+
+}
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+}
+/* COLUMN */
+.column {
+  min-width: 300px;
+  min-height: 20vh;
+  background-color: #E2E4E6;
+  list-style: none;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+}
+.column-add-card {
+  cursor: pointer;
+  text-decoration: none;
+  margin: auto;
+  display: block;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+/* STYLE KARTY */
+.card {
+  box-sizing: border-box;
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 4px;
+  overflow: hidden;
+  position: relative;
+  background-color: #FFF;
+  border-radius: 5px;
+}
+.card-list {
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+.btn-delete {
+  border-radius: 5px;
+
+}
