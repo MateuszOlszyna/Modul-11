@@ -22,6 +22,8 @@ function showCountriesList(resp) {
 		var added = $('<li>').text(item.name).appendTo(countriesList);
 		$('<li>').text("Capital: "+item.capital).appendTo(countriesList);
 		$('<li>').text("Currency: "+item.currencies[0].code).appendTo(countriesList);
+		$('<li>').text("Population: "+item.population).appendTo(countriesList);
+		$('<li>').text("Area: "+item.area+ "km2" ).appendTo(countriesList);
 		$('<li>').append('<img src='+item.flag+'>').appendTo(countriesList);
 		
 	})
